@@ -6,7 +6,7 @@ cd nginx-modules/nginx-1.7.5
 
 chmod +x *
 
-apt-get install libpcre3-dev
+apt-get install libpcre3-dev gcc g++ make
 
 ./configure --add-module=module/rtmp-module --add-module=module/vod-module --with-http_ssl_module
 
