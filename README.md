@@ -8,7 +8,7 @@ chmod +x *
 
 apt-get install libpcre3-dev gcc g++ make
 
-./configure --add-module=module/rtmp-module --add-module=module/vod-module --with-http_ssl_module
+./configure --add-module=module/rtmp-module --add-module=module/vod-module
 
 wget -O /etc/init.d/nginx  https://raw.githubusercontent.com/gluchianov/nginx-modules/master/nginx.service 
 
