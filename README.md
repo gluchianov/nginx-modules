@@ -2,7 +2,7 @@
 
 git clone https://github.com/gluchianov/nginx-modules.git
 
-cd nginx-modules/ginx-1.7.5
+cd nginx-modules/nginx-1.7.5
 
 chmod +x *
 
